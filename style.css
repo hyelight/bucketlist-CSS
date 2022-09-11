@@ -8,7 +8,7 @@ body{
 }
 .container{
     width: 500px;
-    height: 600px;
+    height: auto;
     background-color: #EFEFEF;
     border-radius: 35px;
     position: absolute;
@@ -40,20 +40,21 @@ body{
     margin: 35px 0 29px 20px;
 }
 
-
-.main .list h2{
+.main .list{
+    padding-bottom: 52px;
+}
+.list h2{
     display: none;
 }
 .list ul{
     margin-top: 45px;
-
+    word-break: break-all;
 }
 .list ul li{
     font-size: 20px;
-    padding: 15px 0;
+    padding: 15px 23px;
     border: 5px solid #AAAAAA;
     border-radius: 7px;
-    text-indent: 23px;
     width: 420px;
     margin: 20px 0 0 40px;
 }
